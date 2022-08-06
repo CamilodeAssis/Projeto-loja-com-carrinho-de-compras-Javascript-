@@ -15,10 +15,11 @@ body {
 
 
 .container-titulo h1 {
-    display: flex;
     
+    display: flex;
+    padding-bottom: 10px;
     text-transform: uppercase;
-    border-bottom: 1px solid rgb(56, 56, 56)
+    border-bottom: 1px solid rgb(56, 56, 56);
     
 }
 
@@ -51,7 +52,8 @@ header {
 }
 
 aside {
-    background-color:#9ccbe6;
+    color: white;
+    background-color:#181818;
     width:0vw;
     font-family:'Hepta Slab', Helvetica, Arial;
     transition:all ease .2s;
@@ -261,8 +263,16 @@ h1 {
     background-color:#32a345;
 }
 .prodInfo--cancelButton {
+    color: white;
     display:inline-block;
     cursor:pointer;
+    margin-top:15px;
+    padding:10px 15px;
+    border-radius:10px;
+    background-color: rgb(202, 77, 98);
+}
+.prodInfo--cancelButton:hover{
+    background-color: rgb(235, 19, 91);
 }
 .prodInfo--cancelMobileButton {
     display:none;
@@ -311,8 +321,8 @@ h1 {
 }
 .cart--totalitem {
     padding:15px 0;
-    border-top:1px solid #79b9dd;
-    color:#315970;
+    border-top:1px solid white;
+    color:white;
     display:flex;
     justify-content: space-between;
     font-size:15px;
@@ -322,10 +332,12 @@ h1 {
 }
 .cart--totalitem.big {
     font-size:20px;
-    color:#000;
+    color: White;
     font-weight: bold;
 }
 .cart--finalizar {
+    font-size: 20px;
+    font-weight: bold;
     padding:20px 30px;
     border-radius:20px;
     background-color:#48d05f;
