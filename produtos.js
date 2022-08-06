@@ -5,5 +5,6 @@ let prodJson = [
     {id:4, name:'Moletom canguru', img:'images/canguru.png', price:19.77, sizes:['S', 'M', 'L'], description:'Descrição do produto em mais de uma linha muito legal bem interessante'},
     {id:5, name:'Jaqueta', img:'images/jaqueta.png', price:21.43, sizes:['S', 'M', 'L'], description:'Descrição do produto em mais de uma linha muito legal bem interessante'},
     {id:6, name:'Sueter', img:'images/sueter.png', price:18.55, sizes:['S', 'M', 'L'], description:'Descrição do produto em mais de uma linha muito legal bem interessante'},
+    {id:7, name:'Camisa manga longa', img:'images/mangalonga.png', price:22.36, sizes:['S', 'M', 'L'], description:'Descrição do produto em mais de uma linha muito legal bem interessante'},
     {id:7, name:'Camisa manga longa', img:'images/mangalonga.png', price:22.36, sizes:['S', 'M', 'L'], description:'Descrição do produto em mais de uma linha muito legal bem interessante'}
 ];
