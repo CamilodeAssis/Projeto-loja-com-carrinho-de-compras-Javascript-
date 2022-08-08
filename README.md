@@ -1,1 +1,1 @@
-# Projeto-Javascript-01
+# Projeto-loja
